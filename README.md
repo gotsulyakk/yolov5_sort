@@ -1,2 +1,1 @@
-# yolov5_sort
-YOLOv5 + SORT Tracking
+python track_video.py -m ./weights/yolov5s.pt -v ./data/military.mp4 -o ./data/military_res.mp4 --conf_thr 0.7
