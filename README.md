@@ -1,1 +1,1 @@
-python track_video.py -m ./weights/yolov5s.pt -v ./data/military.mp4 -o ./data/military_res.mp4 --conf_thr 0.7
+python track_video.py -m ./weights/yolov5s.pt -v ./data/video.mp4 -o ./data/video_result.mp4 --conf_thr 0.3
